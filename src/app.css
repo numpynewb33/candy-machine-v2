@@ -8,7 +8,15 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: rgb(255, 255, 255);
 }
-
+body {
+  background-image: url(ar-bg.png);
+  animation: 8s linear 0s infinite normal none running lbHwWf;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 20vh;
+}
 main {
   text-align: center;
   padding: 1em;
