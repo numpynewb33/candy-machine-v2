@@ -21,7 +21,7 @@
   const HEADER_TITLE = "MetaOps";
   const HEADER_LINK = "https://metaopsgaming.com/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/metaops.png";
+  const IMAGE_LINK = "/metaops.jpg";
   /***********************************/
 
   let { solana } = window as any;
