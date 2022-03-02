@@ -30,6 +30,11 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@crossmint/client-sdk-react-ui@^0.0.8-alpha.4":
+  version "0.0.8-alpha.4"
+  resolved "https://registry.yarnpkg.com/@crossmint/client-sdk-react-ui/-/client-sdk-react-ui-0.0.8-alpha.4.tgz#6a1c32fdc75db4d31a930615bf89f5c145af2f3d"
+  integrity sha512-6C6UG1H2MOgFcPsMbz6yBenWcYYTaYgYyfhBuKt+0ahtwwfaxa0khdjcOMN8FJlRoVskUp8yJmN4boQC9fm04Q==
+
 "@ethersproject/bytes@^5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/bytes/-/bytes-5.5.0.tgz#cb11c526de657e7b45d2e0f0246fb3b9d29a601c"

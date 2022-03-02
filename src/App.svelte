@@ -16,12 +16,12 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Crypto Cadets";
-  const DESCRTIPTION = "1500 Crypto Cadets deploying on the Solana Network";
-  const HEADER_TITLE = "CryptoCadets.io";
-  const HEADER_LINK = "https://cryptocadets.io";
+  const TITLE = "MetaOps Gaming";
+  const DESCRTIPTION = "Gain Access to the MetaOps beta game by minting your pass, we are revolutionizing the P2E industry!";
+  const HEADER_TITLE = "MetaOps";
+  const HEADER_LINK = "https://metaopsgaming.com/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/cadet.jpg";
+  const IMAGE_LINK = "/metaops.png";
   /***********************************/
 
   let { solana } = window as any;
