@@ -128,7 +128,7 @@
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}
-        class="text-black tracking-widest underline underline-offset-4 decoration-2 font-mono"
+        class="text-black tracking-widest underline underline-offset-4 decoration-2 font-sans"
         >{HEADER_TITLE}</a
       >
     {/if}
@@ -145,7 +145,7 @@
       <div class="p-6">
         <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
         <div
-          class=" text-lg sm:text-2xl font-mono font-bold py-5 tracking-wider"
+          class=" text-lg sm:text-2xl font-sans font-bold py-5 tracking-wider"
         >
           {TITLE}
         </div>
