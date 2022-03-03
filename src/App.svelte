@@ -134,7 +134,7 @@
     {/if}
     <!-- Card -->
     <div
-      class=" max-w-lg mx-auto bg-red rounded-lg my-12  border-2"
+      class=" max-w-lg mx-auto bg-stone-500 rounded-lg my-12  border-2"
       transition:fade
     >
       <!-- Top Bar -->
