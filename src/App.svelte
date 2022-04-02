@@ -16,7 +16,7 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "MetaOps Gaming";
+  const TITLE = "Stoned Shiba Club";
   const DESCRTIPTION = "Welcome to the Stoned Shiba Club";
   const HEADER_TITLE = "Stoned Shiba Club";
   const HEADER_LINK = "https://linktr.ee/stonedshibaclub/";
@@ -128,7 +128,7 @@
     {#if HEADER_TITLE}
       <a
         href={HEADER_LINK}
-        class="text-black tracking-widest font-sans font-bold"
+        class="text-green-500 tracking-widest font-sans font-bold"
         >{HEADER_TITLE}</a
       >
     {/if}
@@ -145,7 +145,7 @@
       <div class="p-6">
         <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
         <div
-          class=" text-white sm:text-2xl font-sans font-bold py-5 tracking-wider"
+          class=" text-green-500 sm:text-2xl font-sans font-bold py-5 tracking-wider"
         >
           {TITLE}
         </div>
