@@ -17,11 +17,11 @@
   /***********************************/
   // Customise the app by changing the following variables.
   const TITLE = "MetaOps Gaming";
-  const DESCRTIPTION = "Gain Access to the MetaOps beta game by minting your pass, we are revolutionizing the P2E industry!";
-  const HEADER_TITLE = "MetaOps";
-  const HEADER_LINK = "https://metaopsgaming.com/";
+  const DESCRTIPTION = "Welcome to the Stoned Shiba Club";
+  const HEADER_TITLE = "Stoned Shiba Club";
+  const HEADER_LINK = "https://linktr.ee/stonedshibaclub/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/metaops.jpg";
+  const IMAGE_LINK = "/gif.gif";
   /***********************************/
 
   let { solana } = window as any;
