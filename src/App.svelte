@@ -21,7 +21,7 @@
   const HEADER_TITLE = "Stoned Shiba Club";
   const HEADER_LINK = "https://linktr.ee/stonedshibaclub/";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/gif.gif";
+  const IMAGE_LINK = "/gif.png";
   /***********************************/
 
   let { solana } = window as any;
