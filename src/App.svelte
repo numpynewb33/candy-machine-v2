@@ -149,12 +149,12 @@
         >
           {TITLE}
         </div>
-        <div class="text-sm sm:text-md font-semibold pb-5 text-neutral-50 ">
+        <div class=" text-green-500 text-sm sm:text-md font-semibold pb-5 text-neutral-50 ">
           {DESCRTIPTION}
         </div>
         <Button {connection} />
 
-        <div class=" tracking-widest font-bold text-sm pt-3 text-neutral-50">
+        <div class=" text-green-500 tracking-widest font-bold text-sm pt-3 text-neutral-50">
           {itemsRedeemed}/{itemsAvailable} claimed
         </div>
         <div class="flex flex-col pt-3">
