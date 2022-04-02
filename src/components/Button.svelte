@@ -133,17 +133,17 @@
 <div class="flex flex-col">
   {#if !solana}
     <button
-      class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold"
+      class=" px-3 py-2 rounded-md  bg-neutral-500  hover:bg-neutral-900 text-white font-bold"
       on:click={() => getPhantomWallet()}>Get Phantom Wallet</button
     >
   {:else if !$userState.walletPublicKey}
     <button
-      class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold"
+      class=" px-3 py-2 rounded-md  bg-neutral-500  hover:bg-neutral-900 text-white font-bold"
       on:click={connectWalletButton}>Connect</button
     >
   {:else if isSoldOut}
     <button
-      class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold "
+      class=" px-3 py-2 rounded-md  bg-neutral-500  hover:bg-neutral-900 text-white font-bold "
       >Sold Out!</button
     >
   {:else if !isActive && whitelist?.presale && !userWhitelisted}
@@ -158,14 +158,14 @@
     >
   {:else if $userState.userBalance < nftPrice()}
     <button
-      class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold disabled:bg-gray-400"
+      class=" px-3 py-2 rounded-md  bg-neutral-500  hover:bg-neutral-900 text-white font-bold disabled:bg-gray-400"
       disabled={true}
       >Insufficient Funds ({(nftPrice() / LAMPORTS_PER_SOL).toFixed(2)} SOL required)</button
     >
     <div />
   {:else}
     <button
-      class=" px-3 py-2 rounded-md  bg-sky-600  hover:bg-sky-700 text-white font-bold disabled:bg-gray-400"
+      class=" px-3 py-2 rounded-md  bg-neutral-500  hover:bg-neutral-900 text-white font-bold disabled:bg-gray-400"
       disabled={isMinting}
       on:click={mint}
     >
