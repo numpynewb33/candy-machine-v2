@@ -9,7 +9,7 @@
   background-color: rgba(145, 67, 37, 0.767);
 }
 body.anim{
-  background-image: url("/background.png");
+  background-image: url("/bgg.jpeg");
   animation: 8s linear 0s infinite normal none running lbHwWf;
   display: flex;
   flex-direction: column;
